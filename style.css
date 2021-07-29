@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    background-color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, p {
+    color: #fff;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header ============> */
+.header_inner {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header_logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.logo_img {
+    width: 107px;
+    height: 109px;
+    padding-top: 23px;
+}
+
+.logo_text {
+    padding-top: 27px;
+    margin-left: 8px;
+    font-size: 36px;
+}
+
+.header_auth {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 27px;
+}
+
+.login_img {
+    margin-left: 108px;
+}
+
+.login_text {
+    margin-left: 14px;
+    text-decoration: underline;
+}
+
+.login_text:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Header============< */
+
+/* Main Page =========> */
+
+.main_page {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.main_title {
+    margin-top: 143px;
+    font-size: 64px;
+    margin-bottom: 88px;
+    font-weight: 800;
+}
+
+.text_line {
+    display: block;
+    top: 70px;
+    width: 139.43px;
+    border-top: 4px solid #FFFFFF;
+    transform: rotate(120.61deg);
+    position: relative;
+}
+
+.main_text {
+    margin-left: 140px;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 400;
+    margin-top: 45px;
+}
+
+.main_ellipse {
+    position: absolute;
+    transform: translate3d(-30%, -70%, 0);
+}
+
+.main_right_block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main_phone {
+    position: relative;
+    margin-left: 180px;
+    z-index: 10;
+}
+
+.main_purple_blur {
+    position: absolute;
+    width: 670px;
+    height: 500px;
+    top: -205px;
+    background: rgba(250, 0, 255, 0.2);
+    filter: blur(120px);
+}
+
+/* Main Page =========< */
+
+/* Download ===========> */
+
+.download_app_block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    align-items: center;
+}
+
+.download_img {
+    height: 55px;
+    margin-left: 40px;
+}
+
+.download_text h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+/* Download ===========< */
+
+/* Cards ===========> */
+
+.cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.left_card {
+    width: 500px;
+    height: 312px;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    margin: 30px 50px;
+    margin-bottom: 200px;
+}
+
+.card_title {
+    font-weight: 700;
+    font-size: 30px;
+    margin: 60px 70px 30px 55px
+}
+
+.card_link {
+    margin-left: 55px;
+    font-size: 24px;
+    color: #fff;
+}
+
+/* Cards ===========< */
+
+/* Our Mission ===========> */
+
+.mission {
+    display: flex;
+    min-height: 750px;
+}
+
+.mission_phone {
+    position: relative;
+    width: 62%;
+}
+
+.mission_img {
+    position: absolute;
+    transform: rotate(90deg);
+    transform: translate3d(-24%, -25%, 0) rotate(90deg);
+    height: 1000px;
+}
+
+.mission_text {
+    width: 340px;
+}
+
+.mission_title {
+    font-weight: 700;
+    font-size: 52px;
+    margin-top: 0;
+}
+
+.mission_undertitle {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.mission_purple_blur {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1050px;
+    top: 1490px;
+    background: rgba(250, 0, 255, 0.3);
+    filter: blur(60px);
+}
+
+/* Our Mission ===========<*/
+
+/* Cocktails ==============>*/
+
+.cocktails {
+    display: block;
+    background: url('/img/cocktails.png') center center/cover no-repeat;
+    height: 1060px;
+}
