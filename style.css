@@ -206,12 +206,12 @@ h1, p {
 
 .mission_purple_blur {
     position: absolute;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     left: 1050px;
     top: 1490px;
     background: rgba(250, 0, 255, 0.3);
-    filter: blur(60px);
+    filter: blur(75px);
 }
 
 /* Our Mission ===========<*/
@@ -252,7 +252,7 @@ h1, p {
 
 /* Scanner ==============< */
 
-/* Graph ==============< */
+/* Graph ==============> */
 
 .graph_block {
     display: flex;
@@ -335,4 +335,70 @@ h1, p {
     top: 3930px;
     background: rgb(107 52 151 / 30%);
     filter: blur(150px);
+}
+
+/* Graph ==============< */
+
+/* Nightlife ==============> */
+
+.nightlife_block {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 350px;
+    background-size: cover;
+    height: 1300px;
+}
+
+.nightlife_left {
+    height: 682px;
+    width: 50%;
+    background: url('/NoTab_project/img/shadow_cocktails.svg')
+    no-repeat center center, url('/NoTab_project/img/nightlife_music.svg')no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.nightlife_right {
+    height: 682px;
+    width: 50%;
+    background: url('/NoTab_project/img/nightlife_cocktail.svg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.nightlife_block_text {
+    width: 315px;
+    margin-left: 130px;
+    margin-top: 431px;
+}
+
+.nightlife_title {
+    font-weight: 700;
+    font-size: 55px;
+    margin-top: 105px;
+    margin-bottom: 20px;
+    text-shadow: 22px -10px 30px black;
+}
+
+.nightlife_text {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+.nightlife_img_title {
+    position: absolute;
+    left: 75%;
+}
+
+.nightlife_img_order1 {
+    position: absolute;
+    left: -90px;
+    top: 175px;
+}
+
+.nightlife_img_order2 {
+    position: absolute;
+    left: 306px;
+    top: 550px;
 }
