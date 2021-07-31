@@ -4,7 +4,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-h1, p {
+h1, h2, p {
     color: #fff;
 }
 
@@ -47,11 +47,11 @@ h1, p {
 
 .login_img {
     margin-left: 108px;
+    margin-right: 12px;
 }
 
 .login_text {
-    margin-left: 14px;
-    text-decoration: underline;
+    border-bottom: 2px solid;
 }
 
 .login_text:hover {
@@ -154,12 +154,15 @@ h1, p {
     border-radius: 20px;
     margin: 30px 50px;
     margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .card_title {
     font-weight: 700;
     font-size: 30px;
-    margin: 60px 70px 30px 55px
+    margin: 0px 70px 30px 55px;
 }
 
 .card_link {
@@ -223,7 +226,7 @@ h1, p {
     background: url('/NoTab_project/img/shadow_cocktails.svg') no-repeat center center, 
     url('/NoTab_project/img/cocktails.png') no-repeat center center;
     background-size: cover;
-    height: 1060px;
+    height: 836px;
 }
 
 /* Cocktails ==============>*/
@@ -401,4 +404,145 @@ h1, p {
     position: absolute;
     left: 306px;
     top: 550px;
+}
+
+/* Nightlife ==============< */
+
+/* QR ==============> */
+
+.qr {
+    height: 525px;
+    width: 100%;
+    background: url('/NoTab_project/img/notab_text.svg') center center no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 100px;
+}
+
+.qr_img {
+    position: absolute;
+    z-index: 1;
+    left:50%;
+    transform:translate(-50%, -11%);
+}
+
+.qr_shadows {
+    position: absolute;
+    z-index: 0;
+    left:50%;
+    transform:translate(-50%, -30%);
+    max-width: 1000px;
+}
+
+.qr_shadows2 {
+    position: absolute;
+    z-index: 0;
+    left:50%;
+    transform:translate(-50%, -20%);
+    max-width: 1000px;
+}
+
+.qr_text {
+    position: absolute;
+    top: 32%;
+    left: 65%;
+}
+
+.qr_arrow {
+    position: absolute;
+    top: 20%;
+    left: 62%;
+}
+
+/* QR ==============< */
+
+/* Generate Code ==============> */
+
+.gen_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin-top: 100px;
+}
+
+.gen_title {
+    font-weight: 700;
+    font-size: 51px;
+}
+
+.gen_text {
+    font-weight: 400;
+    font-size: 18px;
+    width: 300px;
+}
+
+.gen_under_block {
+    display: block;
+
+}
+
+.gen_under_block .gen_text {
+    width: 100%;
+    margin-right: 100px;
+}
+
+/* Generate Code ==============< */
+
+/* Cards ==============> */
+
+.black_cards {
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+
+.cards_img {
+    position: absolute;
+    z-index: 0;
+    left:50%;
+    transform:translate(-50%, 0);
+}
+
+.cards_block1 {
+    position: absolute;
+    border: 1px solid #fff;  
+    border-radius: 12px;
+    background-color: #000;
+    left: 55%;
+    top: 20%;
+}
+
+.cards_block2 {
+    position: absolute;
+    border: 1px solid #fff;  
+    border-radius: 12px;
+    background-color: #000;
+    left: 12%;
+    top: 36%;
+}
+
+.cards_block3 {
+    position: absolute;
+    border: 1px solid #fff;  
+    border-radius: 12px;
+    background-color: #000;
+    left: 72%;
+    top: 61%;
+}
+
+.cards_block4 {
+    position: absolute;
+    border: 1px solid #fff;  
+    border-radius: 12px;
+    background-color: #000;
+    left: 31%;
+    top: 72%;
+}
+
+.cards_text {
+    margin: 18px;
+    font-weight: 400;
+    font-size: 22px;
 }
