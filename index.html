@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>NoTab</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/NoTab_project/style.css">
@@ -57,10 +57,24 @@
                     <h1 class="our_app_os">Download our app</h1>
                 </div>
                 <div class="download_apps">
-                    <img src="/NoTab_project//img/download_apps.svg" class="download_img" alt="apps_ios_android">
+                    <img src="/NoTab_project/img/apple_down.svg" class="download_img" alt="apps_ios_android">
+                    <img src="/NoTab_project/img/play_down.svg" class="download_img" alt="apps_ios_android">
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="cookies">
+        <div class="container">
+            <div class="cookies_block" id="cookie_block">
+                <div class="cookies_text">
+                    <h1 class="cookies_title">We use cookie to improve your experience on our site. By using our site
+                        you consent cookies.</h1>
+                </div>
+                <div class="cookies_btn"><button class="btn_cookies" id="btn_cookie">OK</button></div>
+            </div>
+        </div>
+
     </div>
 
     <div class="two_questions">
@@ -70,7 +84,7 @@
                     <h2 class="card_title">Would like to become a member, please contact us</h2>
                     <a href="#" class="card_link">support@notab.com</a>
                 </article>
-                <article class="left_card">
+                <article class="left_card" id="mobile_cards">
                     <h2 class="card_title">Already a partner?</h2>
                     <a href="#" class="card_link">Login</a>
                 </article>
@@ -84,7 +98,7 @@
                 <div class="mission_phone"><img src="/NoTab_project/img/IphoneX_clubs.svg" class="mission_img"
                         alt="IPhoneX"></div>
                 <div class="mission_text">
-                    <h1 class="mission_title">Our mission and vision</h1>
+                    <h1 class="mission_title" id="mission_mobile">Our mission and vision</h1>
                     <div class="mission_purple_blur"></div>
                     <p class="mission_undertitle">While technology is our sweet spot, we’ve developed our vision
                         alongside our customers to ensure your everyday problems are solved through simplistic tools.
@@ -144,7 +158,8 @@
                 <h1 class="nightlife_title">QR code</h1>
                 <p class="nightlife_text">No more conflict situations due to wrong order. The guest selects the
                     positions, and after that an individual QR code of his order is generated.</p>
-                <img src="/NoTab_project/img/download_apps.svg" alt="Apps">
+                <img src="/NoTab_project/img/apple_down.svg" class="nightlife_down" alt="Apps">
+                <img src="/NoTab_project/img/play_down.svg" class="nightlife_down" alt="Apps">
             </div>
         </div>
         <div class="nightlife_right">
@@ -156,14 +171,16 @@
     </div>
 
     <div class="qr">
-        <img src="/NoTab_project/img/qr_code.svg" class="qr_img" alt="QR Code Img">
-        <img src="/NoTab_project/img/notab_shadows.svg" class="qr_shadows" alt="Shadows">
-        <img src="/NoTab_project/img/notab_shadows.svg" class="qr_shadows2" alt="Shadows">
-        <img src="/NoTab_project/img/qr_arrow.svg" class="qr_arrow" alt="Arrow">
-        <div class="qr_block_text">
-            <div class="container">
-                <div class="qr_text">
-                    <h2>Scan QR-code</h2>
+        <div class="qr_images">
+            <img src="/NoTab_project/img/qr_code.svg" class="qr_img" alt="QR Code Img">
+            <img src="/NoTab_project/img/notab_shadows.svg" class="qr_shadows" alt="Shadows">
+            <img src="/NoTab_project/img/notab_shadows.svg" class="qr_shadows2" alt="Shadows">
+            <img src="/NoTab_project/img/qr_arrow.svg" class="qr_arrow" alt="Arrow">
+            <div class="qr_block_text">
+                <div class="container">
+                    <div class="qr_text">
+                        <h2>Scan QR-code</h2>
+                    </div>
                 </div>
             </div>
         </div>
@@ -232,8 +249,8 @@
                 <div class="form_blur"></div>
             </div>
             <div class="form_block_input">
-                <input required autocomplete="off" type="text" name="firstName" pattern="[A-Za-z]" placeholder="Name"
-                    class="form_input">
+                <input id="form_Name" required autocomplete="off" type="text" name="firstName" pattern="[A-Za-z]"
+                    placeholder="Name" class="form_input">
                 <input type="text" autocomplete="off" name="VenueName" pattern="[A-Za-z]" placeholder="Venue Name"
                     class="form_input">
                 <div class="form_input_block45">
@@ -248,7 +265,7 @@
                     class="form_input">
                 <input type="text" autocomplete="off" name="Message" pattern="[A-Za-z]" placeholder="Message"
                     class="form_input message">
-                <button class="form_button">Send</button>
+                <button class="form_button" id="send">Send</button>
             </div>
         </div>
     </div>
@@ -281,5 +298,7 @@
         </div>
     </div>
 </body>
+<script src="/NoTab_project/cookies.js"></script>
+<script src="/NoTab_project/submit.js"></script>
 
 </html>

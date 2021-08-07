@@ -81,7 +81,7 @@ a {
     margin-top: 143px;
     font-size: 64px;
     margin-bottom: 88px;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .text_line {
@@ -138,7 +138,7 @@ a {
 }
 
 .download_img {
-    height: 55px;
+    height: 52px;
     margin-left: 40px;
 }
 
@@ -149,6 +149,41 @@ a {
 }
 
 /* Download ===========< */
+
+/* Cookies ===========> */
+
+.cookies {
+    background-color: #212834;
+}
+
+.cookies_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0px;
+}
+
+.cookies_title {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+.btn_cookies {
+    width: 132px;
+    height: 50px;
+
+    color: #fff;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.1);
+    border: 0.5px solid #FFFFFF;
+    border-radius: 6px;
+}
+
+/* Cookies ===========< */
+
+
+
 
 /* Cards ===========> */
 
@@ -210,6 +245,7 @@ a {
     font-weight: 700;
     font-size: 52px;
     margin-top: 0;
+    margin-bottom: 24px;
 }
 
 .mission_undertitle {
@@ -225,6 +261,7 @@ a {
     top: 1490px;
     background: rgba(250, 0, 255, 0.3);
     filter: blur(75px);
+    z-index: -1;
 }
 
 /* Our Mission ===========<*/
@@ -381,7 +418,6 @@ a {
 }
 
 .nightlife_block_text {
-    width: 315px;
     margin-left: 130px;
     margin-top: 431px;
 }
@@ -398,6 +434,7 @@ a {
     font-weight: 400;
     font-size: 18px;
     margin-bottom: 60px;
+    width: 315px;
 }
 
 .nightlife_img_title {
@@ -415,6 +452,11 @@ a {
     position: absolute;
     left: 306px;
     top: 550px;
+}
+
+.nightlife_down {
+    width: 185px;
+    margin-right: 28px;
 }
 
 /* Nightlife ==============< */
@@ -563,7 +605,7 @@ a {
 
 .cards_text {
     margin: 18px;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 22px;
 }
 
@@ -776,3 +818,594 @@ a {
 }
 
 /* Footer ==============< */
+
+/* MEDIA */
+
+@media screen and (max-width: 376px) {
+    html {
+        min-width: 0px;
+        max-width: 375px;
+    }
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    body {
+        margin: 0;
+        background-color: #000;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    h1,
+    h2,
+    p,
+    a {
+        color: #fff;
+    }
+
+    .container {
+        max-width: 345px;
+        margin: 0 auto;
+    }
+
+    /* Header ============> */
+
+    .header_inner {
+        justify-content: space-between;
+    }
+
+    .logo_img {
+        width: 52px;
+        height: 52px;
+        padding-top: 40px;
+    }
+
+    .logo_text {
+        padding-top: 40px;
+        margin-left: 8px;
+        font-size: 18px;
+    }
+
+    .login_img {
+        margin-left: 108px;
+        margin-right: 12px;
+        visibility: hidden;
+    }
+
+    .login_text {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    /* Header============< */
+
+    /* Main Page =========> */
+
+    .main_title {
+        margin-top: 95px;
+        font-size: 35px;
+        margin-bottom: 24px;
+        font-weight: 700;
+    }
+
+    .main_text {
+        margin-left: 0px;
+        font-size: 15px;
+        line-height: 22px;
+        font-weight: 400;
+        margin-top: 0px;
+    }
+
+    .main_left_block {
+        width: 260px;
+    }
+
+    .main_right_block {
+        position: relative;
+    }
+
+    .main_phone {
+        position: absolute;
+        z-index: 10;
+        margin-left: 0px;
+        width: 161px;
+        top: 50px;
+    }
+
+    .main_purple_blur {
+        width: 200px;
+        height: 350px;
+        left: -120px;
+        top: 0px;
+        filter: blur(81px);
+        z-index: -1;
+    }
+
+    .text_line {
+        display: none;
+    }
+
+    .main_ellipse {
+        opacity: 0.7;
+    }
+
+    /* Main Page =========< */
+
+    /* Download ===========> */
+
+    .download_text .our_app_os {
+        font-size: 24px;
+    }
+
+    .download_app_block {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 80px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .download_img {
+        height: 60px;
+        margin-left: 0px;
+        margin: 24px auto;
+        display: block;
+    }
+
+    /* Download ===========< */
+
+    /* Cards ===========> */
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left_card {
+        margin: 30px 0px 0px 0px;
+        width: 100%;
+        height: 233px;
+        border: 2px solid #fff;
+        border-radius: 20px;
+    }
+
+    .card_title {
+        font-size: 23px;
+        margin: 0px 70px 30px 48px;
+    }
+
+    #mobile_cards {
+        width: 100%;
+        height: 167px;
+    }
+
+    .card_link {
+        font-size: 18px;
+    }
+
+    /* Cards ===========< */
+
+    /* Our Mission ===========> */
+
+    .mission {
+        min-height: auto;
+        flex-wrap: wrap;
+    }
+
+    .mission_phone {
+        width: auto;
+        order: 2;
+    }
+
+    .mission_img {
+        transform: none;
+        height: auto;
+        width: 173px;
+        position: static;
+        position: relative;
+        left: 50%;
+        margin-bottom: 90px;
+    }
+
+    .mission_text {
+        position: relative;
+    }
+
+    .mission_title {
+        font-size: 24px;
+        margin-top: 110px;
+    }
+
+    .mission_undertitle {
+        font-size: 16px;
+        margin-bottom: 163px;
+    }
+
+    .mission_purple_blur {
+        width: 95px;
+        height: 95px;
+        top: 75px;
+        left: -35px;
+        filter: blur(45px);
+        background: rgba(250, 0, 255, 0.5);
+        position: absolute;
+        z-index: -1;
+    }
+
+
+    /* Our Mission ===========<*/
+
+    /* Cocktails ==============>*/
+
+    .shadow-c {
+        height: 300px;
+    }
+
+    /* Cocktails ==============>*/
+
+    /* Scanner ==============>*/
+    .scanner_title .mission_title {
+        margin-top: -40px;
+    }
+
+    .scanner {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: auto;
+    }
+
+    .scanner_img {
+        width: 287px;
+        display: block;
+        margin: 25px auto;
+        position: static;
+    }
+
+    .scanner_title {
+        width: 100%;
+        order: 2;
+    }
+
+    .scanner_title .mission_undertitle {
+        margin-bottom: 70px;
+    }
+
+    .scanner_img_block {
+        order: 3;
+    }
+
+    /* Scanner ==============< */
+
+    /* Graph ==============> */
+
+    .graph_block {
+        justify-content: start;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .graph_left {
+        width: 100%;
+    }
+
+    .graph_right {
+        height: 200px;
+    }
+
+    .graph_title {
+        font-size: 24px;
+    }
+
+    .graph_text {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .graph_img1 {
+        width: 144.57px;
+        height: 86px;
+        top: 80%;
+        right: 0px;
+        left: -13%;
+    }
+
+    .graph_img2 {
+        width: 109.43px;
+        height: 21.28px;
+        right: 60%;
+        top: 45%;
+    }
+
+    .graph_img3 {
+        width: 85.62px;
+        height: 90.56px;
+        right: 0%;
+        top: 10%;
+    }
+
+    .graph_img4 {
+        right: 40%;
+        top: 70%;
+        width: 90.95px;
+        height: 55.18px;
+    }
+
+    .graph_img5 {
+        width: 90.95px;
+        height: 55.18px;
+        right: 23%;
+        top: 28%
+    }
+
+    .graph_img6 {
+        display: none;
+    }
+
+    .graph_img7 {
+        height: 60px;
+        top: 100%;
+        right: -30%;
+    }
+
+    .graph_blur {
+        display: none;
+    }
+
+    /* Graph ==============< */
+
+    /* Nightlife ==============> */
+    .nightlife_block {
+        margin-top: 100px;
+    }
+
+    .nightlife_left {
+        height: 385px;
+        width: 100%;
+    }
+
+    .nightlife_right {
+        height: 375px;
+        width: 100%;
+        top: -110px;
+        left: 45px;
+    }
+
+    .nightlife_block_text {
+        margin-left: 30px;
+        margin-top: 242px;
+    }
+
+    .nightlife_title {
+        font-size: 24px;
+    }
+
+    .nightlife_text {
+        font-size: 16px;
+        margin-bottom: 28px;
+    }
+
+    .nightlife_img_order1 {
+        width: 280px;
+        left: -2%;
+        top: 53%;
+        position: inherit;
+    }
+
+    .nightlife_img_order2 {
+        position: inherit;
+        left: 0%;
+        top: 65%;
+        width: 280px;
+    }
+
+    .nightlife_down {
+        display: block;
+        margin: 24px auto;
+    }
+
+    .nightlife_img_title {
+        left: -10%;
+        top: 25%;
+    }
+
+    /* Nightlife ==============< */
+
+    /* QR ==============> */
+
+    .qr {
+        margin-top: 800px;
+        height: 125px;
+    }
+
+    .qr_img {
+        width: 182px;
+        transform: translate(-50%, -35%);
+    }
+
+    .qr_shadows {
+        max-width: 400px;
+    }
+
+    .qr_shadows2 {
+        display: none;
+    }
+
+    .qr_arrow {
+        transform: rotate(45deg);
+        top: 190px;
+        left: 245px;
+    }
+
+    .qr_text {
+        left: 50%;
+        top: 270px;
+    }
+
+    .qr_text h2 {
+        font-size: 18px;
+    }
+
+    /* QR ==============< */
+
+    /* Generate Code ==============> */
+
+    .generate_qr {
+        margin-top: 225px;
+    }
+
+    .gen_title {
+        font-size: 24px;
+    }
+
+    .gen_text p {
+        font-size: 16px;
+    }
+
+    .gen_block {
+        margin-top: 40px;
+    }
+
+    .gen_blur {
+        width: 150px;
+        left: 65%;
+        filter: blur(150px);
+    }
+
+    /* Generate Code ==============< */
+
+    /* Cards ==============> */
+
+    .black_cards {
+        margin-top: 70px;
+        height: 450px;
+    }
+
+    .cards_img {
+        width: 360px;
+        left: 40%;
+    }
+
+    .cards_text {
+        font-size: 12px;
+        margin: 13px;
+    }
+
+    .cards_block1 {
+        left: 3%;
+        top: -10%;
+    }
+
+    .cards_block2 {
+        left: 45%;
+        top: 6%;
+    }
+
+    .cards_block3 {
+        left: 60%;
+        top: 90%;
+    }
+
+    .cards_block4 {
+        left: 0%;
+    }
+
+    /* Cards ==============< */
+
+    /* Discortion ==============> */
+
+    .discortion {
+        display: none;
+    }
+
+    /* Discortion ==============< */
+
+    /* Form ==============> */
+
+    .form_block {
+        margin-top: 60px;
+    }
+
+    .form_title {
+        font-size: 24px;
+    }
+
+    .form_text {
+        font-size: 12px;
+        margin-bottom: 60px;
+    }
+
+    .form_block_input {
+        width: 100%;
+    }
+
+    .form_block .form_blur {
+        z-index: -10;
+        left: 0px;
+    }
+
+    .form_input_block45 {
+        flex-wrap: wrap;
+    }
+
+    .form_input50 {
+        width: 100%;
+    }
+
+    /* Form ==============< */
+
+    .download_block img {
+        display: block;
+        margin: 12px auto;
+        height: 60px;
+        width: 180px;
+    }
+
+    /* Form ==============< */
+
+    /* Footer ==============> */
+
+    .policy {
+        order: 1;
+    }
+
+    .contacts {
+        order: 2;
+    }
+
+    .footer_inner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_p {
+        text-align: center;
+    }
+
+    .footer_h1 {
+        margin: 58px 0px 0px 0px;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .footer_blur {
+        left: -50%;
+        top: 10%;
+        z-index: -10;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        max-width: 310px;
+    }
+
+    .header_auth {
+        flex-wrap: nowrap;
+    }
+
+    .header_logo {
+        flex-wrap: nowrap;
+    }
+}
