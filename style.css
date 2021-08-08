@@ -270,8 +270,8 @@ a {
 
 .shadow-c {
     display: block;
-    background: url('/NoTab_project/img/shadow_cocktails.svg') no-repeat center center,
-        url('/NoTab_project/img/cocktails.png') no-repeat center center;
+    background: url('img/shadow_cocktails.svg') no-repeat center center,
+        url('img/cocktails.png') no-repeat center center;
     background-size: cover;
     height: 836px;
 }
@@ -404,7 +404,7 @@ a {
 .nightlife_left {
     height: 682px;
     width: 50%;
-    background: url('/NoTab_project/img/shadow_cocktails.svg') no-repeat center center, url('/NoTab_project/img/nightlife_music.svg')no-repeat center center;
+    background: url('img/shadow_cocktails.svg') no-repeat center center, url('img/nightlife_music.svg')no-repeat center center;
     background-size: cover;
     position: relative;
 }
@@ -412,7 +412,7 @@ a {
 .nightlife_right {
     height: 682px;
     width: 50%;
-    background: url('/NoTab_project/img/nightlife_cocktail.svg') no-repeat center center;
+    background: url('img/nightlife_cocktail.svg') no-repeat center center;
     background-size: cover;
     position: relative;
 }
@@ -466,7 +466,7 @@ a {
 .qr {
     height: 525px;
     width: 100%;
-    background: url('/NoTab_project/img/notab_text.svg') center center no-repeat;
+    background: url('img/notab_text.svg') center center no-repeat;
     background-size: cover;
     position: relative;
     margin-top: 100px;
@@ -617,7 +617,7 @@ a {
 
 .discortion {
     height: 1000px;
-    background: url('/NoTab_project/img/discortion_bg.svg') center center no-repeat;
+    background: url('img/discortion_bg.svg') center center no-repeat;
     background-size: cover;
 }
 
@@ -1408,4 +1408,11 @@ a {
     .header_logo {
         flex-wrap: nowrap;
     }
+}
+
+/* JavaScript Send Form */
+
+.red-border {
+    border: 3px solid red;
+    border-style:dashed;
 }
