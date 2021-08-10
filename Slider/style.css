@@ -39,6 +39,7 @@ ul {
     border-radius: 50%;
     position: absolute;
     cursor: pointer;
+    border: 1px solid black;
 }
 
 .carousel_controls-back {
@@ -56,4 +57,33 @@ ul {
 .carousel_item {
     width: 600px;
     height: 400px;
+}
+
+/* Dots */
+
+.carousel_dots-list {
+    margin: 0 auto;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel_dots-item {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #67c745;
+    cursor: pointer;
+}
+
+.carousel_dots-item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.carousel_dots-item--active {
+    width: 20px;
+    height: 20px;
+    background-color: #397b21;
+    border: 1px solid black;
 }
